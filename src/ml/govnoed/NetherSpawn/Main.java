@@ -62,7 +62,7 @@ public class Main extends JavaPlugin implements Listener{
 				}
 			};
 			tp.runTaskLater(this, 10L);
-			player.sendMessage(ChatColor.RED + "No overworld for you unless you sleep on the bed somehow...");
+			player.sendMessage(ChatColor.RED + "No overworld for you unless you sleep in the bed somehow...");
 			
 		}
 	}
